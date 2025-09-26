@@ -124,26 +124,6 @@ Main container that:
 - Pagination for large datasets
 - Efficient re-rendering with proper state management
 
-## 🔧 Customization
-
-### Adding New Service Types
-Edit `src/data/mockData.js` to add new service providers:
-
-```javascript
-{
-  id: 10,
-  name: "Your Service Name",
-  profilePicture: "/images/providers/mynewimage.jpg",
-  serviceType: "New Service",
-  location: {
-    city: "City Name",
-    state: "State Code",
-    country: "Country"
-  },
-  availableDates: ["2025-10-27", "2024-10-28"],
-  price: 100
-}
-```
 ## 📄 Scripts
 
 - `npm run dev` - Start development server
