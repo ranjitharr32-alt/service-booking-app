@@ -6,8 +6,8 @@ A modern, responsive React application for browsing and booking service provider
 
 ```bash
 # Clone and setup
-git clone https://github.com/your-username/service-booking-dashboard.git
-cd service-booking-dashboard
+git clone https://github.com/ranjitharr32-alt/service-booking-app.git
+cd service-booking-app
 npm install
 npm run dev
 ```
