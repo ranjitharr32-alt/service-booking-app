@@ -60,11 +60,14 @@ src/
 ├── components/
 │   ├── Dashboard.jsx          # Main dashboard component
 │   ├── FilterBar.jsx          # Filter controls
-│   ├── ServiceCard.jsx        # Individual service provider card
-│   └── LoadingSkeleton.jsx    # Loading state component
+│   ├── LoadingSkeleton.jsx    # Loading state component
+│   └── Pagination.jsx         # Page Navigation
+│   └── ServiceCard.jsx        # Individual service provider card
 ├── data/
 │   └── mockData.js           # Mock data and API simulation
+├── App.css                   # Global style
 ├── App.jsx                   # Root component
+├── index.css                 # Global style
 └── main.jsx                  # Application entry point
 ```
 
@@ -149,7 +152,6 @@ Edit `src/data/mockData.js` to add new service providers:
 
 ## 👨‍💻 Author
 
-Ranjitha R  
 https://github.com/ranjitharr32-alt
 
 ## 🙏 Acknowledgments
